@@ -1,0 +1,27 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-calllog": {
+      "PACKAGE_NAME": "org.cordova.quasar.app"
+    },
+    "cordova-plugin-phone-call": {
+      "PACKAGE_NAME": "org.cordova.quasar.app"
+    },
+    "cordova-plugin-phonecallstate": {
+      "PACKAGE_NAME": "org.cordova.quasar.app"
+    },
+    "cordova-plugin-sim": {
+      "PACKAGE_NAME": "org.cordova.quasar.app"
+    },
+    "com.shefat.plugin.example": {
+      "PACKAGE_NAME": "org.cordova.quasar.app"
+    }
+  },
+  "dependent_plugins": {}
+}

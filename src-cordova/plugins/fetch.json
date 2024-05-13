@@ -1,0 +1,50 @@
+{
+  "cordova-plugin-calllog": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-calllog"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-phone-call": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-phone-call"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-phonecallstate": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-phonecallstate"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-compat": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-compat@^1.0.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-sim": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-sim"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com.shefat.plugin.example": {
+    "source": {
+      "type": "local",
+      "path": "G:\\projects\\crm_app\\crm_quasar_app\\src-cordova\\node_modules\\com.shefat.plugin.example"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "com.shefat.plugin.example",
+  "version": "1.0.0",
+  "description": "Example plugin to demonstrate how to call android function from javascript.",
+  "cordova": {
+    "id": "com.shefat.plugin.example",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "shefat",
+  "license": "null"
+}

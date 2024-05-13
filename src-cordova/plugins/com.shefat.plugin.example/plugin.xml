@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="com.shefat.plugin.example"
+    version="1.0.0">
+    <name>shefat-test-plugin</name>
+    <description>test plugin</description>
+    <license>null</license>
+    <js-module src="www/Example.js" name="Example">
+        <clobbers target="Example" />
+        <merges target="window.plugins.example" />
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Example" >
+                <param name="android-package" value="com.shefat.plugin.Example"/>
+            </feature>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+
+        <source-file src="src/android/Example.java" target-dir="src/com/shefat/plugin" />
+    </platform>
+
+</plugin>
