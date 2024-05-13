@@ -1,0 +1,127 @@
+aside {
+  border-right: 0;
+}
+
+.unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.unstyled a {
+  text-decoration: none;
+}
+
+.list-inline {
+  overflow: hidden;
+}
+
+.list-inline li {
+  float: left;
+}
+
+.header {
+  height: 100%;
+  background: #35302d;
+
+  .top {
+    border-bottom: 1px solid gray;
+    background-image: url('/navbg.jpg');
+    background-size: cover;
+    background-position: center;
+
+    .img {
+      padding: 35px 0px 30px 20px;
+      backdrop-filter: blur(1.5px);
+      display: flex;
+      gap: 20px;
+
+      h4 {
+        margin: 0;
+        color: rgb(255, 230, 0);
+        font-size: 20px;
+        text-transform: uppercase;
+        line-height: 80px;
+        font-weight: 700;
+        text-shadow: 0px 0px 10px black;
+      }
+
+      img {
+        height: 80px;
+        width: 80px;
+      }
+    }
+  }
+}
+
+.logo {
+  text-transform: lowercase;
+  font: 300 2em "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+.main-nav ul {
+  border-top: solid 1px #3c3735;
+}
+
+.main-nav li {
+  border-bottom: solid 1px #3c3735;
+}
+
+.main-nav a {
+  padding: 1.1em 0;
+  padding-left: 30px;
+  color: #dfdbd9;
+  font: 600 1.125em;
+  text-align: left;
+  text-transform: capitalize;
+
+  i {
+    font-weight: bold;
+    width: 30px;
+  }
+}
+
+.main-nav a.active,
+.main-nav a:hover {
+  color: #fff;
+}
+
+.list-hover-slide li {
+  position: relative;
+  overflow: hidden;
+}
+
+.list-hover-slide a {
+  display: block;
+  position: relative;
+  z-index: 1;
+  transition: 0.35s ease color;
+}
+
+
+.list-hover-slide a:before {
+  content: "";
+  display: block;
+  z-index: -1;
+  position: absolute;
+  left: -100%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-right: solid 5px #df4500;
+  background: #3c3735;
+  transition: 0.35s ease left;
+}
+
+.list-hover-slide a.is-current:before,
+.list-hover-slide a:hover:before {
+  left: 0;
+}
+
+.list-hover-slide .router-link-exact-active:before {
+  left: 0;
+}
